@@ -1,1 +1,24 @@
 // Mixins in here
+.button-mixin(@bg: @button-bg, @size: 200px, @fg: @white, @fs: 2rem, @fam: @mono-font) {
+    color: @fg;
+    border-radius: 15px;
+    width: @size;
+    text-align: center;
+    padding: 4%;
+    margin: 2% 0;
+    font-size: @fs;
+    font-family: @fam;
+    background-color: @bg;
+    @media @mobile {
+        width: 100%;
+    }
+    &:hover {
+        // color: darken(@fg, 20%);
+        background-color: lighten(@bg, 20%);
+    }
+}
+
+.pad-sides(@left-pad: 2rem, @right-pad: 2rem) {
+    padding-left: @left-pad;
+    padding-right: @right-pad;
+}
