@@ -1,1 +1,12 @@
 // Mixins in here
+.button-mixin(@bg: @button-bg, @size: 200px, @fg: @white, @fs: 2rem, @fam: @mono-font) {
+    color: @fg;
+    border-radius: 15px;
+    width: @size;
+    text-align: center;
+    padding: 4%;
+    margin: 2% 0;
+    font-size: @fs;
+    font-family: @fam;
+    background-color: @bg;
+}

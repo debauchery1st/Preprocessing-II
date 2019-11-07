@@ -178,7 +178,7 @@ nav {
 nav a {
   text-decoration: none;
   font-size: 1.4rem;
-  color: black;
+  color: #212529;
   letter-spacing: 2px;
 }
 .footer {
@@ -243,4 +243,15 @@ nav a {
 .home .content-pick .destination {
   width: 30%;
   margin-bottom: 30px;
+}
+.home .btn {
+  color: #FFFFFF;
+  border-radius: 15px;
+  width: 194px;
+  text-align: center;
+  padding: 4%;
+  margin: 2% 0;
+  font-size: 2rem;
+  font-family: 'Roboto', sans-serif;
+  background-color: #17A2B8;
 }
